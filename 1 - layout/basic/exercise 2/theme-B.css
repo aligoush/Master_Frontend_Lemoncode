@@ -1,0 +1,12 @@
+html{
+    --base-color:blue;
+    --important-color:rgb(3, 15, 76);
+    --warning-color: rgb(91, 228, 255);
+    --principal-font: Arial;
+    --secondary-font: monospace;
+    --shadow-box:5px 5px 15px;
+}
+
+div > div {
+    border-radius: 5px;
+}

@@ -1,0 +1,8 @@
+html{
+    --base-color:red;
+    --warning-color: pink;
+    --important-color:rgb(91, 17, 17);
+    --principal-font: 'Times New Roman';
+    --secondary-font: Helvetica;
+    --shadow-box:-5px 5px 15px;
+}

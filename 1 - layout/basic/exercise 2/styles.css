@@ -1,0 +1,44 @@
+@import url("theme-B.css");
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif
+
+}
+div > div {
+    display: inline-block;
+    border: rgb(74, 71, 71) solid 1px;
+    padding: 30px;
+    margin: 2px;
+    width:60px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .base-box{
+    background-color: var(--base-color);
+  }
+
+  .important-box{
+    background-color: var(--important-color);
+  }
+
+  .warning-box{
+    background-color: var(--warning-color);
+  }
+
+  .shadow-box{
+    box-shadow: var(--shadow-box);
+  }
+
+  .principal-font{
+    font-family: var(--principal-font);
+    margin-top: 10px;
+  }
+
+  .secondary-font{
+    font-family: var(--secondary-font);
+    margin:10px;
+  }
