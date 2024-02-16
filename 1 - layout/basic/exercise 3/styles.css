@@ -1,0 +1,40 @@
+.navbar{
+    background-color: rgb(9, 109, 120);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.box{
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background-color: #022947;
+}
+
+@media (max-width: 420px){
+    .navbar{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    a {
+        width: 100%; /*to make clickable the whole div*/
+    }
+}
