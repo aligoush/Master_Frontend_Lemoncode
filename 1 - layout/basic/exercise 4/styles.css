@@ -1,20 +1,20 @@
 body{
   background-color: #d8f8f0;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 20px;
+}
 
-
-  }
 .card-container{
-    background-color: rgb(254, 248, 240);
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr auto auto;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(254, 248, 240);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-container .item:not(img, button) {
@@ -24,17 +24,18 @@ body{
 .published{
   text-align: right;
 }
+
 .description{
   margin-top: 0;
 }
 
-  img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
 
-  button{
-    height: 30px;
-    margin: 0 10px 10px;
-  }
+button{
+  height: 30px;
+  margin: 0 10px 10px;
+}
